@@ -20,19 +20,17 @@ img {
 
 .content {
   	display: flex;
-  	flex-direction: row;
+  	/* align-items: center; */
   	gap: 20px;
-  	flex-wrap: wrap; /* makes it wrap if needed */
+	flex-wrap: wrap;
 }
 
 .side-image {
   	width: 50px;
-  	max-width: 100%; /* ensures it doesn't overflow on small screens */
-  	height: auto;
 }
 
 .paragraph p {
-  	margin: 0 0 15px 0;
+  	margin: 0 0 15px 0; /* spacing between paragraphs */
 }
 
 main {
