@@ -19,10 +19,9 @@ img {
 }
 
 .content {
-  	display: flex;
-  	/* align-items: center; */
-  	gap: 20px;
-	flex-wrap: wrap;
+  	width: 150px;
+  	max-width: 100%;
+  	height: auto;
 }
 
 .side-image {
@@ -30,7 +29,7 @@ img {
 }
 
 .paragraph p {
-  	margin: 0 0 15px 0; /* spacing between paragraphs */
+  	margin: 0 0 15px 0;
 }
 
 main {
