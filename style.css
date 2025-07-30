@@ -19,13 +19,16 @@ img {
 }
 
 .content {
-  	width: 150px;
-  	max-width: 50%;
-  	height: auto;
+  	display: flex;
+  	flex-direction: row;
+  	gap: 20px;
+  	flex-wrap: wrap; /* makes it wrap if needed */
 }
 
 .side-image {
   	width: 150px;
+  	max-width: 100%; /* ensures it doesn't overflow on small screens */
+  	height: auto;
 }
 
 .paragraph p {
